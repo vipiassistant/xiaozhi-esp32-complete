@@ -30,10 +30,11 @@ Mở trình duyệt và vào công cụ chính thức:
 |---------------------|-----------|
 | `bootloader.bin`    | `0x0`     |
 | `partition-table.bin` | `0x8000`  |
-| `xiaozhi.bin`       | `0x10000` |
+| `xiaozhi.bin`       | `0x20000` |
 
-4. Nạp từng file một theo đúng địa chỉ.  
+4. Nạp file theo đúng địa chỉ.  
 5. Sau khi hoàn tất, nhấn **Reset** trên board để khởi động lại.  
-
+<img width="2630" height="1514" alt="image" src="https://github.com/user-attachments/assets/bec38636-f41c-4e58-a8f7-91b1f897912b" />
+## Chúc bạn thành công!
 ---
 
