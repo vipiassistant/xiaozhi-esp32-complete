@@ -1,5 +1,5 @@
 # Xiaozhi ESP32 Complete Build
-## Tải file code edit chưa build tại đây: https://drive.google.com/file/d/1fuKec7o9IY3vzQojOilSiP1SKOv6T6oY/view?usp=sharing
+ Tải file code edit chưa build tại đây: https://drive.google.com/file/d/1fuKec7o9IY3vzQojOilSiP1SKOv6T6oY/view?usp=sharing
 ## Thông tin build
 - **Version**: v2.0.2
 - **ESP-IDF version**: v5.5
