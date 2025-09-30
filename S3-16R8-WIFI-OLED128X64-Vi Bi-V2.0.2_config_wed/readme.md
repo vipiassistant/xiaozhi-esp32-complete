@@ -27,12 +27,10 @@ Bản build tùy chỉnh dành cho **ESP32-S3 R16N8** (Flash 16MB, PSRAM 8MB) v�
 ### 🔹 Cấu hình Hotword qua Web
 - Nhập hotword tuỳ ý (vd: `ok google`, `hey mia`, `vi pi`…) LƯU Ý CHỈ HỖ TRỢ TIẾNG ANH
 - Chỉnh độ nhạy phát hiện
-- Test trực tiếp trên web
-- Hiển thị văn bản phản hồi
 
 ### 🔹 Chỉnh GPIO tạm tắt để tránh lỗi
 Chức năng thay đổi GPIO qua giao diện web đang được vô hiệu hóa.  
-Lý do: Nhập sai chân có thể gây crash hệ thống.  
+Lý do: Nhập sai chân có thể gây crash hệ thống dẫn đến không khởi động được.  
 Các chân đang được cố định sẵn trong firmware.
 
 ### 🔹 Màn hình OLED SSD1306 (I2C)
@@ -41,7 +39,7 @@ Các chân đang được cố định sẵn trong firmware.
 - Hiển thị:
   - Trạng thái hotword
   - Câu phản hồi
-  - Thông báo khởi động / kết nối
+  - Thông báo khởi động / kết nối/IP
 
 ---
 
@@ -51,16 +49,17 @@ Các chân đang được cố định sẵn trong firmware.
 1. Kết nối ESP32-S3 vào máy tính
 2. Mở: `https://espressif.github.io/esptool/`
 3. Chọn chip `ESP32-S3`
-4. Nạp file `.bin`
+4. Nạp file 3 file`.bin`
 5. Reset thiết bị
 
 ### Cách 2 – esptool.py
 ```bash
 esptool.py --chip esp32s3 -p COMx -b 460800 write_flash \
-0x0000 bootloader.bin \
+0x0 bootloader.bin \
 0x8000 partition-table.bin \
 0x20000 xiaozhi.bin
 
+```
 ![z7065630347593_81756aa9a24ba88f1761ca579043d0d0](https://github.com/user-attachments/assets/acc1e07f-bf54-4bba-8c61-5200edf53a0a)
 ![z7065630346837_616440d8e83d1d33c895a9dc93b12505](https://github.com/user-attachments/assets/3010f0a4-ed1c-4970-9992-4457cc7522cc)
 ![z7065630360037_6e6c3208f1c5270e28b8438f07593839](https://github.com/user-attachments/assets/f8c862b5-0eb2-4bb3-a796-5352a45cf494)
