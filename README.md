@@ -64,7 +64,7 @@
 
 ---
 <img width="2630" height="1514" alt="image" src="https://github.com/user-attachments/assets/bec38636-f41c-4e58-a8f7-91b1f897912b" />
-## 🎉 Chúc bạn nạp thành công!
+## 🎉 Chúc bạn thành công!
 
 
 
