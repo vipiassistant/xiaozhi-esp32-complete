@@ -1,7 +1,7 @@
 # Xiaozhi ESP32-S3 R16N8 – WebConfig (Hotword + OLED SSD1306)
 
 Bản build tùy chỉnh dành cho **ESP32-S3 R16N8** (Flash 16MB, PSRAM 8MB) với các tính năng chính:
-- ✅ Đổi **hotword trực tiếp trên giao diện web**
+- ✅ Đổi **hotword trực tiếp trên giao diện web- chỉ hỗ trợ tiếng Anh**
 - ✅ Tuỳ biến độ nhạy phát hiện
 - ✅ Hỗ trợ **màn hình OLED SSD1306 128×64 (I2C)**
 - 🔒 Chức năng chỉnh GPIO qua web **tạm thời vô hiệu hóa để tránh crash**
