@@ -2,13 +2,10 @@
 
 ## 📁 Các file firmware
 
-| File | Địa chỉ | Mô tả | Kích thước |
-|------|---------|-------|------------|
-| `bootloader.bin` | `0x0` | Bootloader | 16.1 KB |
-| `partition-table.bin` | `0x8000` | Bảng phân vùng | 3.0 KB |
-| `ota_data_initial.bin` | `0xd000` | Dữ liệu OTA | 8.0 KB |
-| `xiaozhi.bin` | `0x20000` | Ứng dụng chính | 3.0 MB |
-| `generated_assets.bin` | `0x800000` | Tài nguyên âm thanh | 2.9 MB |
+| File | Địa chỉ |
+|------|---------|
+| `xiaozhi_complete_firmware.bin` | `0x0` | 
+
 
 ## ⚙️ Cài đặt flash
 
