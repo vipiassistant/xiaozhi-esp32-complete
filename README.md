@@ -1,10 +1,8 @@
-# Xiaozhi ESP32 Complete Build
+# Xiaozhi ESP32
 
 📂 **Source code (chưa build):**  
-    **V2.0.2:**  
-[Tải tại đây](https://drive.google.com/file/d/1fuKec7o9IY3vzQojOilSiP1SKOv6T6oY/view?usp=sharing)
-    **V2.0.3:**  
-[Tải tại đây](https://drive.google.com/file/d/1322uAmvuhskC-_3pBTkVGiWBYWxbQ3nK/view?usp=drive_link)
+[V2.0.2](https://drive.google.com/file/d/1fuKec7o9IY3vzQojOilSiP1SKOv6T6oY/view?usp=sharing)
+[V2.0.3](https://drive.google.com/file/d/1322uAmvuhskC-_3pBTkVGiWBYWxbQ3nK/view?usp=drive_link)
 
 ---
 
