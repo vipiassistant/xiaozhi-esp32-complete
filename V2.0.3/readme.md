@@ -117,5 +117,5 @@ I (xxxx) Esp32Music: Displaying song name: ♪ Tên Bài Hát
 
 ---
 **Firmware Version**: 2.0.3  
-**Build Date**: $(date)  
+**Build Date**: 15~10-2025  
 **Server**: api.tenclass.net + xiaozhishop.xyz
